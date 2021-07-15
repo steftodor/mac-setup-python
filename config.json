@@ -1,13 +1,34 @@
 {
-    "brew": ["fish",
+    "OSXsettings":{
+        "wallpaper_path":"/System/Library/Desktop Pictures/Solid Colors/Stone.png",
+        "screensaver_moduleName": "Computer Name",
+        "screensaver_path":"/System/Library/Screen Savers/Computer Name.appex",
+        "screensaver_idleTime" : "300",
+        "displaySleep_battery":"5",
+        "displaySleep_charger":"15",
+        "trackpad_tapBehavior":"1",
+        "scrollDirection":"false",
+        "InitialKeyRepeat":"12",
+        "KeyRepeat": "3",
+        "ApplePressAndHoldEnabled":"false",
+        "dock_Autohide-delay":"0",
+        "dock_show-recents":"false",
+        "dock_autohide":"true"
+
+    },
+    "brew": [
+        "fish",
         "poppler",
         "speedtest",
         "wget",
         "neofetch",
         "iperf3",
         "youtube-dl",
-        "dockutil"],
-    "cask": ["firefox",
+        "dockutil",
+        "mas"
+    ],
+    "cask": [
+        "firefox",
         "microsoft-edge",
         "spotify",
         "iterm2",
@@ -27,8 +48,9 @@
         "obs",
         "deluge",
         "google-backup-and-sync",
-        "resilio-sync"],
-    
+        "resilio-sync",
+        "rectangle"
+    ],
     "codeExtension": [
         "angelomollame.conflict-squeezer",
         "CoenraadS.bracket-pair-colorizer",
@@ -42,14 +64,34 @@
         "streetsidesoftware.code-spell-checker",
         "vscode-icons-team.vscode-icons",
         "yzhang.markdown-all-in-one",
-        "ZainChen.json"],
-    "defaultsWrite": [
-        "defaults write -g InitialKeyRepeat -int 10",
-        "defaults write -g KeyRepeat -int 2",
-        "defaults write -g ApplePressAndHoldEnabled -bool false",
-        "defaults write com.apple.Dock autohide-delay -float 0",
-        "defaults write com.apple.dock show-recents -bool false",
-        "defaults write com.apple.dock autohide -bool true"
+        "ZainChen.json"
     ],
-    "other":["gem install pdfunite"]
+    "appStore": [
+        "360593530",
+        "1091189122",
+        "497799835",
+        "424389933"
+    ],
+    "dockOrder":[
+        "/Applications/Spotify.app",
+        "/System/Applications/Launchpad.app",
+        "/Applications/Safari.app",
+        "/Applications/Firefox.app",
+        "/System/Applications/Mail.app",
+        "/System/Applications/Calendar.app",
+        "/Applications/iTerm.app",
+        "/System/Applications/System\\ Preferences.app",
+        "/Applications/Visual\\ Studio\\ Code.app",
+        "/Applications/KeePassXC.app",
+        "/Applications/Slack.app",
+        "/Applications/Discord.app",
+        "/Applications/Android\\ Messages.app",
+        "/Applications/WhatsApp.app"
+       
+        
+    ],
+
+    "other": [
+        "gem install pdfunite"
+    ]
 }

@@ -69,8 +69,8 @@ else:
     print("[appStore]: SKIPPING")
 
 ################################################### Setup Dock Applicationsm###################################################
-os.system("dockutil --remove all")
 if "dock" in sys.argv:
+    os.system("dockutil --remove all")
     print("[DOCK]: Starting Dock Setup")
     for app in config["dockOrder"]:
         os.system("dockutil --add " + app)

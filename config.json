@@ -5,7 +5,7 @@
         "screensaver_path":"/System/Library/Screen Savers/Computer Name.appex",
         "screensaver_idleTime" : "300",
         "displaySleep_battery":"5",
-        "displaySleep_charger":"15",
+        "displaySleep_charger":"30",
         "trackpad_tapBehavior":"1",
         "scrollDirection":"false",
         "InitialKeyRepeat":"12",
@@ -28,8 +28,7 @@
         "mas"
     ],
     "cask": [
-        "firefox",
-        "microsoft-edge",
+        "google-chrome",
         "spotify",
         "iterm2",
         "visual-studio-code",
@@ -67,6 +66,8 @@
         "ZainChen.json"
     ],
     "appStore": [
+        "937984704",
+        "1333542190",
         "360593530",
         "1091189122",
         "497799835",
@@ -75,8 +76,7 @@
     "dockOrder":[
         "/System/Applications/Launchpad.app",
         "/Applications/Spotify.app",
-        "/Applications/Safari.app",
-        "/Applications/Firefox.app",
+        "/Applications/Google\\ Chrome.app",
         "/System/Applications/Mail.app",
         "/System/Applications/Calendar.app",
         "/Applications/iTerm.app",
